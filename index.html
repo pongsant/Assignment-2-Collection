@@ -1,0 +1,96 @@
+x<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My 5 Most-Played Artists (This Month)</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1 class="site-title"><a href="./">My 5 Most-Played Artists (This Month)</a></h1>
+      <p class="site-tag muted">Pure HTML + CSS · Spotify-style dark theme</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- CSS-only FILTER (radio buttons) -->
+    <section class="controls">
+      <input type="radio" name="mood" id="m-all"   checked>
+      <label for="m-all">All</label>
+
+      <input type="radio" name="mood" id="m-night">
+      <label for="m-night">Night</label>
+
+      <input type="radio" name="mood" id="m-sad">
+      <label for="m-sad">Sad</label>
+
+      <input type="radio" name="mood" id="m-focus">
+      <label for="m-focus">Focus</label>
+
+      <input type="radio" name="mood" id="m-happy">
+      <label for="m-happy">Happy</label>
+    </section>
+
+    <!-- GRID OF CARDS -->
+    <ul class="grid">
+      <li class="card" data-mood="night">
+        <a class="block" href="items/frank-ocean.html">
+          <img class="thumb" src="assets/frank-ocean.jpg" alt="Frank Ocean">
+          <h3 class="card-title">Frank Ocean</h3>
+          <p class="muted small">Oct 1, 2025 · Night</p>
+          <p class="small">312 min · 27 tracks</p>
+          <p class="tags small">alt-rnb, rainy</p>
+        </a>
+      </li>
+
+      <li class="card" data-mood="sad">
+        <a class="block" href="items/cigarettes-after-sex.html">
+          <img class="thumb" src="assets/cas.jpg" alt="Cigarettes After Sex">
+          <h3 class="card-title">Cigarettes After Sex</h3>
+          <p class="muted small">Oct 2, 2025 · Sad</p>
+          <p class="small">198 min · 16 tracks</p>
+          <p class="tags small">dream, reverb, night</p>
+        </a>
+      </li>
+
+      <li class="card" data-mood="night">
+        <a class="block" href="items/the-weeknd-after-hours.html">
+          <img class="thumb" src="assets/after-hours.jpg" alt="The Weeknd — After Hours">
+          <h3 class="card-title">The Weeknd — After Hours</h3>
+          <p class="muted small">Oct 3, 2025 · Night</p>
+          <p class="small">144 min · 10 tracks</p>
+          <p class="tags small">synth, city</p>
+        </a>
+      </li>
+
+      <li class="card" data-mood="focus">
+        <a class="block" href="items/travis-scott-utopia.html">
+          <img class="thumb" src="assets/utopia.jpg" alt="Travis Scott — UTOPIA">
+          <h3 class="card-title">Travis Scott — UTOPIA</h3>
+          <p class="muted small">Oct 4, 2025 · Focus</p>
+          <p class="small">121 min · 9 tracks</p>
+          <p class="tags small">trap, gym</p>
+        </a>
+      </li>
+
+      <li class="card" data-mood="happy">
+        <a class="block" href="items/thai-pop-rainy-mix.html">
+          <img class="thumb" src="assets/thai-pop.jpg" alt="Thai Pop — Rainy Mix">
+          <h3 class="card-title">Thai Pop — Rainy Mix</h3>
+          <p class="muted small">Oct 5, 2025 · Happy</p>
+          <p class="small">95 min · 20 tracks</p>
+          <p class="tags small">thai, pop, memory</p>
+        </a>
+      </li>
+    </ul>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap small muted">
+      <p>© 2025 Your Name</p>
+    </div>
+  </footer>
+</body>
+</html>
