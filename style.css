@@ -58,4 +58,18 @@
   .metrics{ display:flex; gap:16px; flex-wrap:wrap; background:#121214; border:1px solid var(--line);
     padding:10px 12px; border-radius:12px; margin:0 0 16px }
   .post-body p{ margin:0 0 1em }
+
+  /* Back button */
+.back {
+  display:inline-block;
+  margin:0 0 14px;
+  padding:8px 12px;
+  border:1px solid var(--line);
+  border-radius:999px;
+  background:var(--card);
+  color:var(--fg);
+  text-decoration:none;
+}
+.back:hover { border-color:#3a3a40; transform:translateY(-1px) }
+
   
